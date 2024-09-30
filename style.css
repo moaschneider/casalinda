@@ -301,7 +301,6 @@ h6 {
 	font-size: 13px;
 }
 /* .icon-border {} */
-
 .icon-border span {
 	display: block;
 	position: relative;
@@ -444,7 +443,7 @@ input {
 	color: #fff;
 	border-radius: 2rem;
 	border: 0;
-	background: #7a60ff;
+	background: var(--secundaria);
 	background: linear-gradient(to left, var(--escurona), var(--secundaria));
 	cursor:pointer;
 }
@@ -507,7 +506,7 @@ input {
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
-	background:  rgb(213, 198, 221);
+	background: #fff;
 	color: #fff !important;
 	text-align: center;
 	padding: 10px 0;
